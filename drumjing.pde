@@ -30,9 +30,9 @@ void setup() {
   iteratorFrame = 0;
   iteratorClips = 0;
   indexPlaying = 0;
-  recordingDuration = 4;//in s
+  recordingDuration = 2;//in s
   clips = new ArrayList<Movie>();
-  basePath = "/home/raphael/Bureau/drumjeying/drumjing2/"; //absolute path pointing to folder with scketch
+  basePath = "/home/raphael/Documents/WORK/PERSO/Petitsprojets/drumjing/"; //absolute path pointing to folder with scketch
   loadContent();
   currentClip = clips.get(indexPlaying);
   currentClip.play();
@@ -89,7 +89,7 @@ void keyPressed() {
     currentClip.play();
     currentClip.loop();
   }
-  if(key == 'o')  {
+  if(key == 'r')  {
     currentClip.stop();
     indexPlaying = (int)random(0,iteratorClips);
     currentClip = clips.get(indexPlaying);

@@ -9,7 +9,8 @@ Drumjing is a Processing sketch. It needs a capture device (any webcam), a midi 
 
 ## Setup
 
-- Run the script and replace the camera id with capture device
+- Be sure you have [ffmpeg] installed on your system, and the Processing Video library
+- Run the script and replace the camera id with capture device, you also may replace the sketch with and height of your capture device
 - Replace the absolute path of your Processing sketch in `basePath`
 
 ![plan](documentation/plan.svg)
