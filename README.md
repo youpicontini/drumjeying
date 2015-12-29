@@ -13,7 +13,7 @@ Drumjing is a Processing sketch. It needs a capture device (any webcam), a midi 
 - Run the script and replace the camera id with capture device, you also may replace the sketch with and height of your capture device
 - Replace the absolute path of your Processing sketch in `basePath`
 
-![plan](documentation/plan.svg)
+![plan](https://rawgit.com/youpicontini/drumjeying/master/documentation/plan.svg)
 
 1. A cam is activated by a button,
 2. A comptuter will record 3sec (defaiult) of the cam’s image and then will add it to a clip list
